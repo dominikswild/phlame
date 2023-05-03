@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phlame"
+version = "0.8"
+authors = [
+  { name="Dominik S. Wild", email="dominikswild@gmail.com" },
+]
+description = "A photonics package for layere media"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+keywords = [
+    "photonics",
+    "layered",
+    "two-dimensional",
+    "dielectric",
+    "electromagnetism",
+    "reflection",
+    "transmission",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dominikswild/phlame"
+"Bug Tracker" = "https://github.com/dominikswild/phlame/issues"
